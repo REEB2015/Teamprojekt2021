@@ -8,6 +8,7 @@ public class MouseClickRobot : MonoBehaviour
     public enum PROXY_TYPE
     {
         NONE,
+        TEST,
         INITIAL,
         TRANSPORT_ELEC,
         TRANSPORT_EFFIC,
@@ -31,6 +32,7 @@ public class MouseClickRobot : MonoBehaviour
     void Start()
     {
         this.initialX = this.transform.localPosition.x;
+        SliderEventSystem.aBrowserSliderEvent += this.setPercentageNew;
     }
 
     private void Update()
@@ -59,17 +61,19 @@ public class MouseClickRobot : MonoBehaviour
             }
         }
 
+        /*
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             this.setPercentage(Random.value);
         }
+        */
     }
 
     public void setPercentage(float percentage)
     {
         if (this.MaxX != -1.0f && this.MinX != -1.0f)
         {
-            this.transform.localPosition = new Vector3(this.MinX + (this.MaxX - this.MinX) * percentage, this.transform.localPosition.y, this.transform.localPosition.z);
+            this.transform.localPosition = new Vector3(this.MinX + (this.MaxX - this.MinX) * (percentage / 100) , this.transform.localPosition.y, this.transform.localPosition.z);
             if (this.transform.localPosition.x < this.MinX)
             {
                 this.transform.localPosition = new Vector3(this.MinX, this.transform.localPosition.y, this.transform.localPosition.z);
@@ -78,6 +82,14 @@ public class MouseClickRobot : MonoBehaviour
             {
                 this.transform.localPosition = new Vector3(this.MaxX, this.transform.localPosition.y, this.transform.localPosition.z);
             }
+        }
+    }
+
+    public void setPercentageNew(float percentage, MouseClickRobot.PROXY_TYPE type) 
+    {
+        if(this.proxyType == type)
+        {
+            this.setPercentage(percentage);
         }
     }
 }

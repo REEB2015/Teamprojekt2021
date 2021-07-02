@@ -357,6 +357,7 @@ public abstract class PointerUIBase : MonoBehaviour, IBrowserUI {
 
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.TRANSPORT_ELEC;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.TRANSPORT_EFFIC;
+			/*
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.ENERGY_COAL;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.LAND_METHANE;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.ENERGY_RENEWABLES;
@@ -364,6 +365,7 @@ public abstract class PointerUIBase : MonoBehaviour, IBrowserUI {
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.BUILDING_ENERGY;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.GROWTH_ECONOMIC;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.GROWTH_POPULATION;
+			*/
         }
 
         if (this.proxystate == 1)
