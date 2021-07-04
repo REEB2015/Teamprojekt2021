@@ -199,3 +199,4 @@ Received Import Request.
 Start importing Assets/Prefabs/Sig_inMuseum.prefab using Guid(fc782fc8d1d894487af341a16207846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780e01a3003999a3e45b11f1269a0be9') in 0.029852 seconds
   Import took 0.033426 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
