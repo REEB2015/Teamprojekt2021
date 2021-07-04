@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 7704340472824061568}
   - component: {fileID: 7704340472824061575}
   - component: {fileID: 7704340472824061574}
+  - component: {fileID: 1350629149476065676}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -551,6 +552,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c391a12458bd480eae387b6c82948c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1350629149476065676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7704340472824061572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c463ae69547543d895d157dca807867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
 --- !u!1 &7704340472839340798
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,7 +762,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7704340473590796047}
-  - component: {fileID: -3773449226339009567}
   m_Layer: 5
   m_Name: Transport_Electrification
   m_TagString: Untagged
@@ -778,18 +791,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &-3773449226339009567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7704340473590796046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c463ae69547543d895d157dca807867, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7704340473608763251
 GameObject:
   m_ObjectHideFlags: 0

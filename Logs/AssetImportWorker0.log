@@ -275,3 +275,119 @@ System memory in use after: 158.5 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2006.
 Total: 2.514983 ms (FindLiveObjects: 0.236901 ms CreateObjectMapping: 0.073717 ms MarkObjects: 2.178242 ms  DeleteObjects: 0.024569 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.6 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 2.588721 ms (FindLiveObjects: 0.217960 ms CreateObjectMapping: 0.065789 ms MarkObjects: 2.279161 ms  DeleteObjects: 0.024216 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 578.844134 seconds.
+  path: Assets/Prefabs/Transport_Electrification.prefab
+  artifactKey: Guid(e44ca93f68180304887bbe0f930ec627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Transport_Electrification.prefab using Guid(e44ca93f68180304887bbe0f930ec627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978963f0562e6bbf9f9656805ec1cc82') in 0.158787 seconds
+  Import took 0.163878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.986861 seconds.
+  path: Assets/Prefabs/Transport_Electrification.prefab
+  artifactKey: Guid(e44ca93f68180304887bbe0f930ec627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Transport_Electrification.prefab using Guid(e44ca93f68180304887bbe0f930ec627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e14cb3ade29b4a8c1561a8e30a3137') in 0.059895 seconds
+  Import took 0.063981 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 159.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 1.990879 ms (FindLiveObjects: 0.191471 ms CreateObjectMapping: 0.050928 ms MarkObjects: 1.717990 ms  DeleteObjects: 0.029486 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.2 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 1.964289 ms (FindLiveObjects: 0.167333 ms CreateObjectMapping: 0.046379 ms MarkObjects: 1.731181 ms  DeleteObjects: 0.018568 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.4 MB.
+System memory in use after: 159.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 1.907562 ms (FindLiveObjects: 0.168306 ms CreateObjectMapping: 0.044809 ms MarkObjects: 1.675853 ms  DeleteObjects: 0.017589 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.6 MB.
+System memory in use after: 159.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2022.
+Total: 1.872419 ms (FindLiveObjects: 0.184826 ms CreateObjectMapping: 0.049788 ms MarkObjects: 1.620501 ms  DeleteObjects: 0.016342 ms)
+

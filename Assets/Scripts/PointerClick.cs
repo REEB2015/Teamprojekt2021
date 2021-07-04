@@ -70,7 +70,7 @@ public class PointerClick : MonoBehaviour
     void sliderCallBack(float value)
     {
     Debug.Log("Slider Changed: " + value);
-    slider.GetComponent<Image>().color = Color.cyan;
+    slider.GetComponentInChildren<Image>().color = Color.cyan;
     slider.GetComponentInChildren<MeshRenderer>().material.color = Color.yellow;
     }
 
