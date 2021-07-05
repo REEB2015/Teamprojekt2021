@@ -79,3 +79,64 @@ Received Import Request.
 Start importing Assets/Prefabs/Sign.prefab using Guid(1c509077826b8446f8214e174909b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c8d13b1a380985ac7b91e266981638') in 1.112869 seconds
   Import took 1.116446 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.6 MB.
+System memory in use after: 156.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 1.979829 ms (FindLiveObjects: 0.195333 ms CreateObjectMapping: 0.049209 ms MarkObjects: 1.696897 ms  DeleteObjects: 0.036810 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.123037 seconds.
+  path: Assets/Prefabs/Transport_Electrification.prefab
+  artifactKey: Guid(e44ca93f68180304887bbe0f930ec627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Transport_Electrification.prefab using Guid(e44ca93f68180304887bbe0f930ec627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19945734dc4ae17960a6fc1ed245b1b1') in 0.142456 seconds
+  Import took 0.145807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.759741 seconds.
+  path: Assets/Scenes/Museum.unity
+  artifactKey: Guid(9a353310689f4a2abad3c67225ccbe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum.unity using Guid(9a353310689f4a2abad3c67225ccbe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729c5f6f97ae2d0378bb77806564ca96') in 0.002324 seconds
+  Import took 0.008884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006018 seconds.
+  path: Assets/Scenes/Museum.unity
+  artifactKey: Guid(9a353310689f4a2abad3c67225ccbe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum.unity using Guid(9a353310689f4a2abad3c67225ccbe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729c5f6f97ae2d0378bb77806564ca96') in 0.002261 seconds
+  Import took 0.010132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.664122 seconds.
+  path: Assets/Scenes/Museum 2.unity
+  artifactKey: Guid(2eec93cd0467947ebae05906b63f22be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum 2.unity using Guid(2eec93cd0467947ebae05906b63f22be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fd9e046dee98b23795f0878caf5cdd') in 0.002046 seconds
+  Import took 0.008812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002637 seconds.
+  path: Assets/Scenes/Museum 2.unity
+  artifactKey: Guid(2eec93cd0467947ebae05906b63f22be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Museum 2.unity using Guid(2eec93cd0467947ebae05906b63f22be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fd9e046dee98b23795f0878caf5cdd') in 0.004893 seconds
+  Import took 0.013954 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
