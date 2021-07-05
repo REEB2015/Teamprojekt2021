@@ -448,7 +448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8274161142348206310}
   m_Layer: 0
-  m_Name: Sign_Welcome
+  m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
