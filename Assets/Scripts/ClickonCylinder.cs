@@ -17,7 +17,6 @@ public class ClickonCylinder : MonoBehaviour
                  if (hit.transform)
                  {
                      PrintName(hit.transform.gameObject);
-                    //Our custom method. 
                      //CurrentClickedGameObject(hit.transform.gameObject);
                  }
              }
@@ -28,7 +27,7 @@ public class ClickonCylinder : MonoBehaviour
 
   private void PrintName(GameObject go)
   {
-      print(go.name);
+      Debug.Log(go.name);
   }
   private void CurrentClickedGameObject(GameObject gameObject)
  {
