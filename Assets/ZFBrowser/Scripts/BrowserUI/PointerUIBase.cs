@@ -356,8 +356,8 @@ public abstract class PointerUIBase : MonoBehaviour, IBrowserUI {
 		} else if (Input.GetKeyUp(KeyCode.G)) {
 
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.TRANSPORT_ELEC;
-			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.TRANSPORT_EFFIC;
 			/*
+			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.TRANSPORT_EFFIC;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.ENERGY_COAL;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.LAND_METHANE;
 			this.relevantProxyType = MouseClickRobot.PROXY_TYPE.ENERGY_RENEWABLES;
